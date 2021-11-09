@@ -8,12 +8,8 @@ import java.time.Instant;
 @Value
 public class PaymentTransferCreated {
     private String paymentId;
-    private String fromAccountId;
-    private String toAccountId;
+    private String customerId;
+    private String employerId;
     private BigDecimal amount;
-    /*
-    private String payMethodId;
-    private String appointmentId;
-     */
     private Instant occurredOn;
 }
